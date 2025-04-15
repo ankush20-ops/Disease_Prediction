@@ -5,7 +5,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load trained model
-model = joblib.load("random_forest_heart_model.pkl")
+model = joblib.load(r"C:\Users\jaiba\Downloads\capstone\random_forest_heart_model.pkl")
 
 st.set_page_config(page_title="AI Heart Health Assistant", layout="centered")
 st.title("❤️ AI Heart Disease Risk Predictor")
